@@ -1,0 +1,4 @@
+[
+    {"question": "What is 5 + 3?", "options": ["6", "7", "8", "9"], "answer": "8"},
+    {"question": "Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": "Mars"}
+]
