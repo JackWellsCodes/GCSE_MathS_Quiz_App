@@ -1,4 +1,124 @@
 [
-    {"question": "What is 5 + 3?", "options": ["6", "7", "8", "9"], "answer": "8"},
-    {"question": "Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": "Mars"}
+    {
+        "question": "What is 2 + 2?",
+        "type": "multiple-choice",
+        "options": ["3", "4", "5", "6"],
+        "answer": ["4"]
+    },
+    {
+        "question": "What is 5 * 3?",
+        "type": "multiple-choice",
+        "options": ["15", "20", "25", "30"],
+        "answer": ["15"]
+    },
+    {
+        "question": "Factorise d^2 - e^2",
+        "type": "text",
+        "answer": ["(d+e)(d-e)", "(d-e)(d+e)"]
+    },
+    {
+        "question": "Solve for x: 2x + 3 = 7",
+        "type": "text",
+        "answer": ["2"]
+    },
+    {
+        "question": "Solve for x: 3x - 5 = 10",
+        "type": "text",
+        "answer": ["5"]
+    },
+    {
+        "question": "What is 2^3?",
+        "type": "multiple-choice",
+        "options": ["6", "7", "8", "9"],
+        "answer": ["8"]
+    },
+    {
+        "question": "Simplify: 3(2 + 4)",
+        "type": "text",
+        "answer": ["18"]
+    },
+    {
+        "question": "Solve for y: y/3 = 6",
+        "type": "text",
+        "answer": ["18"]
+    },
+    {
+        "question": "Find the area of a rectangle with length 8 and width 5",
+        "type": "text",
+        "answer": ["40"]
+    },
+    {
+        "question": "Find the perimeter of a square with side 4",
+        "type": "text",
+        "answer": ["16"]
+    },
+    {
+        "question": "What is 7 - 3?",
+        "type": "multiple-choice",
+        "options": ["4", "3", "5", "6"],
+        "answer": ["4"]
+    },
+    {
+        "question": "What is 9 / 3?",
+        "type": "multiple-choice",
+        "options": ["2", "3", "4", "6"],
+        "answer": ["3"]
+    },
+    {
+        "question": "Simplify: 4^2 - 3^2",
+        "type": "text",
+        "answer": ["7"]
+    },
+    {
+        "question": "Expand: (x + 2)^2",
+        "type": "text",
+        "answer": ["x^2+4x+4"]
+    },
+    {
+        "question": "Factorise: x^2 - 9",
+        "type": "text",
+        "answer": ["(x+3)(x-3)", "(x-3)(x+3)"]
+    },
+    {
+        "question": "Solve for x: 4x = 16",
+        "type": "text",
+        "answer": ["4"]
+    },
+    {
+        "question": "Solve for x: x/4 = 2",
+        "type": "text",
+        "answer": ["8"]
+    },
+    {
+        "question": "Calculate: 15% of 200",
+        "type": "text",
+        "answer": ["30"]
+    },
+    {
+        "question": "Solve for x: 3x + 5 = 20",
+        "type": "text",
+        "answer": ["5"]
+    },
+    {
+        "question": "Solve for x: x^2 = 16",
+        "type": "text",
+        "answer": ["4", "-4"]
+    },
+    {
+        "question": "Find the gradient of the line y = 3x + 2",
+        "type": "text",
+        "answer": ["3"]
+    },
+    {
+        "question": "What are the solutions to (x + 1)(x - 1) = 0?",
+        "type": "multiple-choice",
+        "options": ["1 and -1", "1 only", "-1 only", "0"],
+        "answer": ["1 and -1"]
+    },
+    {
+        "question": "Calculate the circumference of a circle with radius 7 (use π = 3.14)",
+        "type": "text",
+        "answer": ["43.96"]
+    }
 ]
+
