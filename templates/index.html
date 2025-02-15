@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GCSE Tutor App</title>
+    <title>Quiz Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .home-container {
+            text-align: center;
+        }
+        .btn-start {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the GCSE Tutor App!</h1>
-    <a href="/quiz">Start Quiz</a>
+    <div class="home-container">
+        <h1 class="mb-4">Welcome to the Quiz!</h1>
+        <a href="{{ url_for('quiz') }}" class="btn btn-primary btn-start">Start Quiz</a>
+    </div>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
